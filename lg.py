@@ -33,6 +33,10 @@ import json
 import random
 from os import environ
 
+# Setup HTTP(S) proxy
+environ['http_proxy'] = environ.get('FIXIE_URL', '')
+environ['https_proxy'] = environ.get('FIXIE_URL', '')
+
 from toolbox import mask_is_valid, ipv6_is_valid, ipv4_is_valid, resolve, save_cache_pickle, load_cache_pickle, unescape
 #from xml.sax.saxutils import escape
 
