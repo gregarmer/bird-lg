@@ -1,0 +1,20 @@
+.navbar-inner {
+    background-image: -webkit-linear-gradient(top, #03a9f4, #03a9f4);
+}
+
+.navbar-fixed-top .brand {
+    color: #0088cc;
+}
+
+.navbar .nav>li>a {
+    color: #f2f2f2;
+}
+
+.navbar .navbar-text {
+    color: #f2f2f2;
+}
+
+.navbar .divider-vertical {
+    background-color: #0088cc;
+    border-right: none;
+}
