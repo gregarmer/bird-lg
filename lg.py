@@ -227,7 +227,7 @@ def whois():
     return jsonify(output=output, title=query)
 
 
-SUMMARY_UNWANTED_PROTOS = ["Kernel", "Static", "Device"]
+SUMMARY_UNWANTED_PROTOS = ["Kernel", "Static", "Device", "Direct"]
 SUMMARY_RE_MATCH = r"(?P<name>[\w_]+)\s+(?P<proto>\w+)\s+(?P<table>\w+)\s+(?P<state>\w+)\s+(?P<since>((|\d\d\d\d-\d\d-\d\d\s)|(\d\d:)\d\d:\d\d|\w\w\w\d\d))($|\s+(?P<info>.*))"
 
 
